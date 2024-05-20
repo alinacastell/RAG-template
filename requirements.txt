@@ -1,0 +1,7 @@
+ipykernel
+langchain
+langchain_openai
+faiss-cpu
+openai
+pandas
+streamlit
