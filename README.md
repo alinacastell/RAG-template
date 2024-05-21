@@ -2,9 +2,11 @@
 Template files (classes, methods) for a RAG implementation.
 
 ### Step 1: Chunking
-project/chunking\n
-│\n
-├── chunking_strategies.py\n
+project/chunking
+
+│
+
+├── chunking_strategies.py
 
 ├── main.py
 
