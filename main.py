@@ -37,7 +37,7 @@ def main():
                                   args.separator, args.separators)
         log_chunk_lengths(chunks)
         if args.save_chunks:
-            save_chunks_csv('./data_chunks/' + args.input_path + args.strategy + '_chunks.csv', chunks)
+            save_chunks_csv('./data_chunks/' + args.strategy + '_chunks' + str(args.chunk_size) + '.csv', chunks)
     elif os.path.isdir(args.input_path):
         process_folder(args.input_path, args.strategy, args.save_chunks)
     else:
