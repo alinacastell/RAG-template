@@ -1,11 +1,4 @@
-# RAG_template
-Template files (classes, methods) for a RAG implementation.
+# RAG template
+Template files for a RAG implementation.
 
-### Step 1: Chunking
-project/chunking
-
-│\\
-├── chunking_strategies.py
-├── main.py
-├── utils.py
-└── __init__.py
+The method is executed in the `main.py` file which runs the `chunking_strategies.py` module.
